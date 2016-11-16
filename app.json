@@ -1,0 +1,21 @@
+{
+  "name": "SlackBot",
+  "description": "SlackBot template using Swift 3 and Vapor.",
+  "repository": "https://github.com/chiswicked/slack-bot",
+  "keywords": ["swift", "vapor", "slack"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your slackbot's token as in https://<#your-team#>.slack.com/apps/A0F7YS25R-bots",
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kylef/heroku-buildpack-swift"
+    }
+  ]
+}
